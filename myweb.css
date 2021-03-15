@@ -1,0 +1,273 @@
+
+body { background-color: #FFFFFF;
+	   background-size: cover;
+	   background-repeat: no-repeat;
+       color: #15495E;
+       font-family: Arial, Verdana, sans-serif; }
+#wrapper{ margin-left: auto;   
+             margin-right: auto;   
+             width: 85%; 
+             background-color: #FFFFFF;    
+ 	         min-width: 650px; 
+			 max-width: 1280px;   	           
+			 box-shadow: 10px 10px 10px 10px #333; }
+#coatOfarm { margin: 10px;
+			 float: right;
+			 font-family: Papyrus, fantasy;
+			 text-align: center;}
+#historyImg {margin: 25px;
+			float: left;
+			box-shadow: 5px 10px 10px #333; 
+			}
+#gov_Img {margin: 0px 5px;
+		  vertical-align:middle;
+		  box-shadow: 0px 0px 0px #333; 
+		  padding-left: 200px;
+	      padding-bottom: 5px;
+		  padding-top: 15px;
+		  font-family: Papyrus, fantasy;}
+header a { text-decoration: none; }
+header a:link { color: #00005D; }
+header a:visited { color: #00005D;}
+header a:hover { color: #FFFFFF; }
+header { background-color: #696969;
+		 background-image: url(flag.jpg);
+		 background-size: cover;
+		 color: #00005D;
+		 font-size: 130%;
+		 padding: 10px 10px 10px 10px;
+		 background-repeat: no-repeat;
+		 text-align: center;}
+
+ h1 { 
+     color: #FFFFFF; 
+	 line-height: 150%;
+	 font-family: Georgia, "Times New Roman", serif;
+	 text-align: center; 
+	 text-shadow: 5px 5px 5px #000000; }
+h2 { background-color: #FFFFFF; 
+     color: #237B7B; 
+	 font-family: Georgia, "Times New Roman", serif;
+	 text-align: center; 
+	 font-size: 1em;
+	 padding-top: 5px;
+	 padding-bottom: 5px;}
+
+.topnav {
+  background-color: #4CAF50;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+img { padding-left: 0px;
+      padding-right: 5px;
+	  padding-bottom: 5px;
+	  padding-top: 5px;
+	  }
+main {padding-left: 2em;
+	  padding-right: 2em;
+	  padding-bottom: 2em;
+      display: block;}
+p { font-size: .90em;
+	text-indent: 3em; }
+ul { font-weight: bold; } 
+footer { background-color:#FFFFFF;
+		 color: #221811;
+         font-size: .60em;
+         font-style: italic;
+		 text-align: center;
+		 padding: 1em;
+		 p.solid {border-style: solid; border-color: #8C3826} }
+.country { font-weight: bold;
+           font-family: Georgia, "Times New Roman", serif;
+           font-size: 1.25em; }
+.intro {padding-left: 20%;
+		padding-right: 20;
+        }
+.intro2 {padding-left: 20%;
+		padding-right: 20;
+		float: right;
+        }
+		
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  font-family: Papyrus, fantasy;
+  font-style: italic;
+  font-size: .60em;
+}
+
+.column1 {
+  flex: 30%;
+  max-width: 40%;
+  padding: 4px 4px;
+ 
+}
+
+.column1 img {
+  margin-top: 30px;
+  vertical-align: middle;
+  width: 85%;
+}
+
+@media screen and (max-width: 800px) {
+  .column1 {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column1 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.faq{
+font-size: .90em;
+font-family: cursive, fantasy;
+}
